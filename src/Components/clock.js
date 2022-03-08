@@ -25,7 +25,7 @@ export default function Clock() {
 
       return (
             <>
-                  <h1>{timeString}</h1>
+                  <h1 style={{color: "red",fontSize: "50px"}}>{timeString}</h1>
             </>
       )
 }
